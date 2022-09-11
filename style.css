@@ -22,4 +22,23 @@
 .card {
     border-radius: 15px;
     border: 1px lightblue solid;
+    margin-left: 15px;
+}
+.labels {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    
+    list-style: none;
+}
+.sidebar>ul {
+    flex-direction: column;
+}
+
+img {
+    height: 20px;
+    margin-left: 10%;
+    margin-right: 5px;
 }
