@@ -52,7 +52,13 @@ input {
     padding-left: 10%;
     padding-top: 2.5%;
 }
-.rowTwo>ul {
+.rowTwo>ul>li {
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px 8px 0 8px;
+
 }
 .contentContainer {
     background-color: lightgray;
@@ -73,6 +79,9 @@ input {
     border-left: 7px rgb(142, 142, 5) solid;
     margin-left: 15px;
     background-color: whitesmoke;
+}
+.card>h1 {
+    font-size: 24px;
 }
 .labels {
     display: flex;
